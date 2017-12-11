@@ -10,13 +10,13 @@ public class User {
     @GeneratedValue
     private Long id;
 
-    @Column(name = "FIRST_NAME")
+    @Column(name = "firstname")
     private String firstName;
 
-    @Column(name = "LAST_NAME")
+    @Column(name = "lastname")
     private String lastName;
 
-    @Column(name = "EMAIL")
+    @Column(name = "email")
     private String email;
 
     public User() {
